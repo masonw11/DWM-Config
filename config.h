@@ -100,6 +100,8 @@ static Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY,			XK_F1,     spawn,	   {.v = togglemute } },
+	{ MODKEY,			XK_F2,     spawn,          {.v = unmute } },
+	{ MODKEY,			XK_F2,     spawn,          {.v = voldown } },
 };
 
 /* button definitions */
